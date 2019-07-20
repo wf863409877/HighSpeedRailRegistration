@@ -1,0 +1,274 @@
+*{margin:0;
+padding: 0;}
+a{
+	text-decoration: none;
+	color: #000;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: 500;
+
+}
+img{
+	vertical-align: middle;
+}
+body{min-width: 1200px;}
+header{
+	widows: 100%;
+	background: #efefef;
+	border-bottom: 2px solid rgb(35,136,201);
+}
+nav{position: relative;
+	left: 50%;
+	margin-left: -600px;
+	width: 1200px;
+	height: 123px;
+	line-height: 123px;
+	
+	text-align: center;
+}
+.nav_left{
+	float: left;
+	height: 123px;
+}
+.nav_left-title{
+	font-size: 22px;
+	font-weight: 800;
+}
+.nav_left-khfw{
+	font-size: 14px;
+	font-weight: 300;
+	color: #666666;
+}
+.nav_right{
+	float: right;
+	height: 123px;
+}
+.nav_right a:nth-child(3),.nav_right a:nth-child(6){
+	margin-left: 15px;
+}
+.nav_right-adress,.nav_right-login{
+	color: rgb(251,116,3);
+}
+.nav_right-img{
+	width: 25px;
+}
+.list-a{
+	
+}
+.nav-list{
+    position: absolute;
+    left: 911px;
+    top: 80px;
+    list-style: none;
+    width: 147px;
+    height: 383px;
+    font-size: 14px;
+    border: 1px solid rgb(251,116,3);
+    background: #fff;
+    z-index: 3;
+    transition: all 1.5s ease;
+    overflow: hidden;
+}
+.nav-list-int{
+	height: 0px;
+	overflow: hidden;
+	border-top:0px;
+	border-bottom:0px;
+	transition: all 1.5s ease;
+}
+.nav-list li{
+	margin-bottom:5px;
+	line-height: 30px;
+	color: #666; 
+}
+/*添加虚线*/
+.nav-liBorder{
+	border-bottom: 1px dashed #666;
+	margin: 0 10px 0 10px;
+}
+/*main*/
+section.inner{
+	width: 100%;
+	height: 805px;
+}
+.innerform{
+	position: relative;
+	left: 50%;
+	width: 1200px;
+	height: 620px;
+	margin-left: -600px;
+	
+}
+.inner-tips{
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+}
+.inner-tips > span{
+	color: #666666;
+}
+.innerform-count{
+	height: 44px;
+	line-height: 44px;
+	color: #fff;
+	font-size: 22px;
+	background:  #fb7403;
+	border-radius: 0px 0px 5px 5px;
+	text-indent: 5px;
+
+}
+.inner-table{
+	width: 1200px;
+	height: 620px;
+	border: 1px solid  #fb7403;
+	border-radius: 10px;
+
+}
+.inner-table table{
+	border-collapse:separate; 
+	border-spacing:0px 15px;
+	width: 800px;
+	position: relative;
+	left: 50%;
+	margin-top: 50px;
+	margin-left: -400px;
+}
+.inner-table table input{
+	height: 20px;
+	line-height: 20px;
+	width: 210px;
+}
+.inner-table table td{
+	margin-top: 10px;
+}
+.inner-table table select{
+	padding-left: 10px;
+	width: 214px;
+	height: 25px;
+	line-height: 20px;
+	/*text-align-last: center;*/
+}
+.inner-table tr td{
+	font-weight: 600;
+}
+.inner-table tr td:nth-child(1){
+	text-align: right;
+	color:#fb7403; 
+}
+.inner-table tr td:nth-child(2){
+	text-align-last:justify;
+
+	width: 75px;
+}
+.inner-table tr td:nth-child(3){ 
+width: 20px; 
+text-align: center;    
+}
+.inner-table tr td:nth-child(4){
+	text-align:left;
+	width: 225px;
+}
+.inner-table tr td:nth-child(5){
+	width: 420px;
+	text-align:left;
+	color: #fb7403;
+}
+.agree{
+	margin-left: 355px;
+}
+.agree a{
+	font-size: 16px;
+	color: blue;
+}
+.innerform-submit{
+	margin-top: 60px;
+	width: 1200px;
+	text-align: center;
+}
+.innerform-submit > input{
+	color: #fff;
+	font-size: 22px;
+	width: 228px;
+	height: 36px;
+	line-height: 36px;
+	background:#fb7403;
+	border: none; 
+
+}
+.innerform-submit > input:hover{
+	color:#fb7403;
+	background:#fff;
+	border:1px solid #fb7403; 
+}
+/*密码强度样式*/
+.Complexity{
+	display: inline-block;
+	margin-left: 5px;
+	width:42px ;
+	height: 7px;
+	background: #dddddd;
+}
+.Complexity-active1{
+	background: red;
+}
+.Complexity-active2{
+	background: #ffa500;
+}
+.Complexity-active3{
+	background: #008000;
+}
+/*姓名规则*/
+.tbTip{
+	
+}
+.tbTip p{
+	margin:8px 0 20px 15px;
+}
+.nameExp{
+	text-decoration: underline;
+	position: relative;
+}
+.nameExp:hover .nameTips{
+	display: inline-block;
+}
+.nameTips{
+	position: absolute;
+    width: 500px;
+    height: 224px;
+    border: 1px solid blue;
+    background: #fff;
+    left: 99px;
+    top: 5px;
+    color: #666;
+    font-size: 14px;
+    z-index: 2;
+    display: none;
+
+}
+#passwordTipTr{
+	display: none;
+	
+	height: 24px;
+}
+#passwordTip{
+	width: 214px;
+}
+.input-true{
+	color: green !important;;
+}
+.input-false{
+	color: red !important;;
+}
+/*main end*/
+/*footer*/
+footer{
+	width: 100%;
+	height: 103px;
+	background: #efefef;
+	text-align: center;
+	border-top: 2px solid rgb(35,136,201);
+}
+footer p{
+	color: #99a1b4;
+	margin-top: 24px;
+}
