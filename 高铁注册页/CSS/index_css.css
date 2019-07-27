@@ -30,6 +30,9 @@ nav{position: relative;
 	float: left;
 	height: 123px;
 }
+.nav_left img{
+	width: 95px;
+}
 .nav_left-title{
 	font-size: 22px;
 	font-weight: 800;
