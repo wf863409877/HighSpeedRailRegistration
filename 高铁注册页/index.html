@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>注册页面</title>
 	<link rel="stylesheet" href="CSS/index_css.css">
 </head>
+
 <body>
 	<!-- 头部 -->
-	 <header>
+	<header>
 		<nav>
 			<div class="nav_left">
 				<a href="javascript:;"><img src="img/logo.jpg" alt="logo"></a>
@@ -25,140 +27,150 @@
 				</a>
 				<a href="javascript:;"><img class="nav_right-img" src="img/phone.png" alt="手机版">手机版</a>
 				<ul class="nav-list nav-list-int">
-						<li>未完成订单</li>
-						<li class="nav-liBorder">已完成订单(退/改)</li>
-						<li class="nav-liBorder">我的保险</li>
-						<li>查看个人信息</li>
-						<li class="nav-liBorder">财产安全</li>
-						<li class="nav-liBorder">常用联系人</li>
-						<li>重点旅客预约</li>
-						<li class="nav-liBorder">遗失物品查找</li>
-						<li class="nav-liBorder">服务查询</li>
-						<li>投诉</li>
-						<li>建议</li>
-					</ul>
+					<li>未完成订单</li>
+					<li class="nav-liBorder">已完成订单(退/改)</li>
+					<li class="nav-liBorder">我的保险</li>
+					<li>查看个人信息</li>
+					<li class="nav-liBorder">财产安全</li>
+					<li class="nav-liBorder">常用联系人</li>
+					<li>重点旅客预约</li>
+					<li class="nav-liBorder">遗失物品查找</li>
+					<li class="nav-liBorder">服务查询</li>
+					<li>投诉</li>
+					<li>建议</li>
+				</ul>
 			</div>
 		</nav>
-	 </header>
-	 <!-- 头部end -->
-	 <section class="inner">
+	</header>
+	<!-- 头部end -->
+	<section class="inner">
 		<div class="innerform">
 			<div class="inner-tips">您现在的位置 ：<span>客运首页 > 注册</span></div>
 			<div class="inner-table">
-			<div class="innerform-count">账户信息</div>
-			<form action="">
-				<table >
-					<tr><td>*</td>
-						<td>用户名</td>
-						<td>:</td>
-						<td><input id="username" type="text" placeholder="用户名设置成功后不可修改"></td>
-						<td class="tbTip" id="usernameTip">6-30位字母、数字或"_",字母开头</td>
-					</tr>
-					<tr><td>*</td>
-						<td>登录密码</td>
-						<td>:</td>
-						<td><input id="password" type="password" placeholder="6-20位字母、数字或下划线"></td>
-						<td class="tbTip" >
-						 <span class="Complexity Complexity-active1"></span>
-						 <span id="Complexity2" class="Complexity"></span>
-						 <span id="Complexity3" class="Complexity"></span>
-						 </td>
-					</tr>
-					<tr id="passwordTipTr">
-						<td> </td>
-						<td> </td>
-						<td> </td>
-						<td id="passwordTip" style="color: red;font-size: 14px;">请输入6-20位字母数字或符号</td>
-						<td> </td>
-					</tr>
-					<tr><td>*</td>
-						<td>确认密码</td>
-						<td>:</td>
-						<td><input id="passwordagin" type="password" placeholder="再次输入您的登陆密码"></td>
-						<td class="tbTip" id="passwordaginTip"></td>
-					</tr>
-					<tr><td>*</td>
-						<td>姓名</td>
-						<td>:</td>
-						<td><input id="name" type="text" placeholder="请输入姓名"></td>
-						<td class="tbTip" id="nameTip">
-							<span class="nameExp">姓名填写规则
-								<span class="nameTips">
-									<p>1.确认姓名中生僻字无法输入时，可以用生僻字拼音或者同音字代替</p>
-									<p>
-									2.输入姓名保存后,遇有系统无法正确显示的汉字,可用该汉子的拼音或同音字重新修改后保存
-									</p>
-									<p>
-									3.姓名中有繁体字无法输入时,可用简体替代。
-									</p>
-									<p>
-									4.姓名较长,汉字与英文字符合计超过30个( 1个汉子算2个字符)的，需按姓名中第一个汉字或英文字符开始按顺序连续输入30个字符(空格字符不输入) , 其中英文字符输入时不去别大小写。
-									</p>
+				<div class="innerform-count">账户信息</div>
+				<form action="">
+					<table>
+						<tr>
+							<td>*</td>
+							<td>用户名</td>
+							<td>:</td>
+							<td><input id="username" type="text" placeholder="用户名设置成功后不可修改"></td>
+							<td class="tbTip" id="usernameTip">6-30位字母、数字或"_",字母开头</td>
+						</tr>
+						<tr>
+							<td>*</td>
+							<td>登录密码</td>
+							<td>:</td>
+							<td><input id="password" type="password" placeholder="6-20位字母、数字或下划线"></td>
+							<td class="tbTip">
+								<span class="Complexity Complexity-active1"></span>
+								<span id="Complexity2" class="Complexity"></span>
+								<span id="Complexity3" class="Complexity"></span>
+							</td>
+						</tr>
+						<tr id="passwordTipTr">
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td id="passwordTip" style="color: red;font-size: 14px;">请输入6-20位字母数字或符号</td>
+							<td> </td>
+						</tr>
+						<tr>
+							<td>*</td>
+							<td>确认密码</td>
+							<td>:</td>
+							<td><input id="passwordagin" type="password" placeholder="再次输入您的登陆密码"></td>
+							<td class="tbTip" id="passwordaginTip"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>姓名</td>
+							<td>:</td>
+							<td><input id="name" type="text" placeholder="请输入姓名"></td>
+							<td class="tbTip" id="nameTip">
+								<span class="nameExp">姓名填写规则
+									<span class="nameTips">
+										<p>1.确认姓名中生僻字无法输入时，可以用生僻字拼音或者同音字代替</p>
+										<p>
+											2.输入姓名保存后,遇有系统无法正确显示的汉字,可用该汉子的拼音或同音字重新修改后保存
+										</p>
+										<p>
+											3.姓名中有繁体字无法输入时,可用简体替代。
+										</p>
+										<p>
+											4.姓名较长,汉字与英文字符合计超过30个( 1个汉子算2个字符)的，需按姓名中第一个汉字或英文字符开始按顺序连续输入30个字符(空格字符不输入) ,
+											其中英文字符输入时不去别大小写。
+										</p>
+									</span>
 								</span>
-							</span>
-						</td>
-					</tr>
-					<tr>
-						<td>*</td>
-						<td>证件类型</td>
-						<td>:</td>
-						<td>
-							<select name="idcardType" id="idcardType">
-								<option value="二代身份证">二代身份证</option>
-								<option value="港澳通行证">港澳通行证</option>
-								<option value="台湾通行证">台湾通行证</option>
-								<option value="护照选项">护照</option>
-							</select>
-						</td>
-						<td class="tbTip"></td>
-					</tr>
-					<tr><td>*</td>
-						<td>证件号码</td>
-						<td>:</td>
-						<td><input class="cardNumber" id="cardNumber" type="text" placeholder="请输入您的证件号码"></td>
-						<td class="tbTip" id="cardNumberTip"></td>
-					</tr>
-					<tr><td></td>
-						<td>邮箱</td>
-						<td>:</td>
-						<td><input id="email" type="text" placeholder="请正确填写邮箱地址"></td>
-						<td class="tbTip" id="emailTip"></td>
-					</tr> 
-						<td>*</td>  
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>证件类型</td>
+							<td>:</td>
+							<td>
+								<select name="idcardType" id="idcardType">
+									<option value="二代身份证">二代身份证</option>
+									<option value="港澳通行证">港澳通行证</option>
+									<option value="台湾通行证">台湾通行证</option>
+									<option value="护照选项">护照</option>
+								</select>
+							</td>
+							<td class="tbTip"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>证件号码</td>
+							<td>:</td>
+							<td><input class="cardNumber" id="cardNumber" type="text" placeholder="请输入您的证件号码"></td>
+							<td class="tbTip" id="cardNumberTip"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>邮箱</td>
+							<td>:</td>
+							<td><input id="email" type="text" placeholder="请正确填写邮箱地址"></td>
+							<td class="tbTip" id="emailTip"></td>
+						</tr>
+						<td></td>
 						<td>手机号码</td>
-						<td>:</td> 
+						<td>:</td>
 						<td><input id="phoneNumber" type="text" placeholder="请输入您的手机号码"></td>
 						<td class="tbTip" id="phoneNumberTipC">请正确填写手机号码，稍后将向该手机号码发送短信验证码</td>
-					</tr>
-					<tr><td>*</td>
-						<td>旅客类型</td>
-						<td>:</td> 
-						<td>
-							<select name="passengerType" id="passengerType">
-								<option value="成人">成人</option>
-								<option value="儿童">儿童</option>
-								<option value="学生">学生</option>
-								<option value="残疾军人">残疾军人</option>
-								<option value="伤残人民警察">伤残人民警察</option>
-							</select>
-						</td>
-						<td class="tbTip"></td>
-					</tr>
-				</table>
-				<div class="agree">
-					<input id="agreement" type="checkbox"> 我已阅读并同意遵守<a href="javascript:;">《中国铁路客户服务中心网站服务条款》</a>
-				</div>
-				<div class="innerform-submit">
-					<input id="nextStep" type="button" value="下一步">
-				</div>
-			</form>
+						</tr>
+						<tr>
+							<td></td>
+							<td>旅客类型</td>
+							<td>:</td>
+							<td>
+								<select name="passengerType" id="passengerType">
+									<option value="成人">成人</option>
+									<option value="儿童">儿童</option>
+									<option value="学生">学生</option>
+									<option value="残疾军人">残疾军人</option>
+									<option value="伤残人民警察">伤残人民警察</option>
+								</select>
+							</td>
+							<td class="tbTip"></td>
+						</tr>
+					</table>
+					<div class="agree">
+						<input id="agreement" type="checkbox"> 我已阅读并同意遵守<a href="javascript:;">《中国铁路客户服务中心网站服务条款》</a>
+					</div>
+					<div class="innerform-submit">
+						<input id="nextStep" type="button" value="下一步">
+					</div>
+				</form>
 			</div>
 		</div>
-	 </section>
-	 <footer>
+	</section>
+	<footer>
 		<p>关于我们|网站声明</p>
 		<p>Copyright &copy; 2017 ixxx.com All Rights Reserved | 京ICP备 13046642号-2</p>
-	 </footer>
-	 <script src="JS/index_js.js"></script>
+	</footer>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="JS/index_js.js"></script>
 </body>
+
 </html>
